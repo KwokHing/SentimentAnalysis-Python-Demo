@@ -240,19 +240,7 @@ preprocess.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -366,19 +354,7 @@ compound.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -673,13 +649,6 @@ test[['target', 'ids']].to_csv("nb_submission.csv", index=False)
 files.download('nb_submission.csv') ### remove this line of code if not using colab
 
 ```
-
-
-
-
-    '\ncv = TfidfVectorizer(ngram_range=(1,2)) \nX = tv.fit_transform(train[\'text\'])\n\ny_kaggle = clf.predict(tv.transform(test[\'text\']))\ntest[\'target\'] = pd.DataFrame(y_kaggle.tolist())\ntest[[\'target\', \'ids\']].to_csv("nb_submission.csv", index=False)\n'
-
-
 
 
 ```python
@@ -1009,19 +978,7 @@ preprocess.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
