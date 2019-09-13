@@ -64,19 +64,7 @@ train.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -150,13 +138,7 @@ train.groupby('target').size().plot(kind='bar')
 
 
 
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x7f669030f4e0>
-
-
-
-
-![png](output_7_1.png)
+![png](images/output_7_1.png)
 
 
 We will find that it is a relatively well-balanced dataset
