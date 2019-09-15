@@ -740,14 +740,8 @@ files.download('l_svm_submission.csv') ### remove this line of code if not using
 
 
 ```python
-!pip install xgboost
+pip install xgboost
 ```
-
-    Requirement already satisfied: xgboost in /usr/local/lib/python3.6/dist-packages (0.90)
-    Requirement already satisfied: scipy in /usr/local/lib/python3.6/dist-packages (from xgboost) (1.3.1)
-    Requirement already satisfied: numpy in /usr/local/lib/python3.6/dist-packages (from xgboost) (1.16.4)
-
-
 
 ```python
 tv = TfidfVectorizer(ngram_range=(1,2), max_features=20000, stop_words='english', min_df=.0025, max_df=0.25) 
@@ -832,10 +826,6 @@ rf = RandomForestClassifier()
 rf.fit(Xtrain,ytrain)
 pred = rf.predict(Xtest)
 ```
-
-    /usr/local/lib/python3.6/dist-packages/sklearn/ensemble/forest.py:245: FutureWarning: The default value of n_estimators will change from 10 in version 0.20 to 100 in 0.22.
-      "10 in version 0.20 to 100 in 0.22.", FutureWarning)
-
 
 
 ```python
