@@ -323,15 +323,8 @@ Scale for the classification model used base on compound value:
 
 
 ```python
-!pip install vaderSentiment
+pip install vaderSentiment
 ```
-
-    Collecting vaderSentiment
-    [?25l  Downloading https://files.pythonhosted.org/packages/86/9e/c53e1fc61aac5ee490a6ac5e21b1ac04e55a7c2aba647bb8411c9aadf24e/vaderSentiment-3.2.1-py2.py3-none-any.whl (125kB)
-    [K     |████████████████████████████████| 133kB 1.4MB/s 
-    [?25hInstalling collected packages: vaderSentiment
-    Successfully installed vaderSentiment-3.2.1
-
 
 
 ```python
@@ -859,9 +852,6 @@ etc=ExtraTreesClassifier()
 etc.fit(Xtrain,ytrain)
 pred=etc.predict(Xtest)
 ```
-
-    /usr/local/lib/python3.6/dist-packages/sklearn/ensemble/forest.py:245: FutureWarning: The default value of n_estimators will change from 10 in version 0.20 to 100 in 0.22.
-      "10 in version 0.20 to 100 in 0.22.", FutureWarning)
 
 
 
