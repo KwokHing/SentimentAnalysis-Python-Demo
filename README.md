@@ -8,9 +8,6 @@ Data for this in-class competition comes from the Sentiment140 dataset where the
 ![jpg](images/inclass-competition.jpg)
 
 
-View the codes in Google Colab [here](https://drive.google.com/open?id=1d_po5AQDFRovk4livi2kvv1hhjPLxqAC) or download the SentimentAnalysis.ipynb
-
-
 # Walk-through of the submission entry:
 
 
@@ -1021,5 +1018,5 @@ preprocess.head()
 </div>
 
 
-
+Alternatively, you can view the codes in Google Colab [here](https://drive.google.com/open?id=1d_po5AQDFRovk4livi2kvv1hhjPLxqAC).
 
