@@ -4,6 +4,7 @@ This repo provides the submission entry for an in-class NLP sentiment analysis c
 
 Data for this in-class competition comes from the Sentiment140 dataset where the training and test data consists of randomly sampled 10% and 5% of the Sentiment140 dataset.
 
+Alternatively, you can view the codes in Google Colab [here](https://drive.google.com/open?id=1d_po5AQDFRovk4livi2kvv1hhjPLxqAC).
 
 ![jpg](images/inclass-competition.jpg)
 
@@ -1018,5 +1019,5 @@ preprocess.head()
 </div>
 
 
-Alternatively, you can view the codes in Google Colab [here](https://drive.google.com/open?id=1d_po5AQDFRovk4livi2kvv1hhjPLxqAC).
+
 
