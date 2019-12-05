@@ -18,7 +18,7 @@ Data for this in-class competition comes from the Sentiment140 dataset where the
 ## Getting started
 Open `SentimentAnalysis.ipynb` on a jupyter notebook environment. Alternatively, you can view the codes in Google Colab [here](https://drive.google.com/open?id=1d_po5AQDFRovk4livi2kvv1hhjPLxqAC). The notebook consists of further technical details.
 
-# Improvements
+## Improvements
 Could potentially explore the use of Deep Learning Techniques such as RNN and/or LSTM for sentiment analysis
 
 <!---
