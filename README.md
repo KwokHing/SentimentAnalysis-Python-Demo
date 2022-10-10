@@ -1,25 +1,35 @@
-## Exploration of Sentiment Analysis using Lexicon and Machine-Learning Based Methods 
+## Exploration of Sentiment Analysis
 
 This repo provides the submission entry for an in-class NLP sentiment analysis competition held at Microsoft AI Singapore group using techniques learned in class to classify text in identifying positive or negative sentiment.
 
-Data for this in-class competition comes from the `Sentiment140` dataset where the training and test data consists of randomly sampled 10% and 5% of the Sentiment140 dataset.
+![jpg](images/inclass-competition.jpg)
 
-- Text Pre-processing
-- VADER (VALENCE based sentiment analyzer)
+Recommended to install [Anaconda](https://www.anaconda.com/products/distribution), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. Alternatively, you can make use of [Google Colaboratory](https://colab.research.google.com/), which allows you to write and execute Python codes in your browser.
+
+**Data**
+
+Data for this in-class competition comes from the [Sentiment140](https://www.kaggle.com/datasets/kazanova/sentiment140) dataset where the training and test data consists of randomly sampled 10% and 5% of the dataset.
+
+## Getting started using Lexicon and Machine Learning (ML) based methods
+Open `SentimentAnalysis.ipynb` on a jupyter notebook environment. Alternatively, you can view the codes in Google Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/KwokHing/SentimentAnalysis-Python-Demo/blob/master/SentimentAnalysis.ipynb). 
+
+- VADER (VALENCE based sentiment analyzer) (67%)
 - Naive Bayes
-- Linear SVM (Support Vector Machine)
+- Linear SVM (Support Vector Machine) (80%)
 - Decision Tree
 - Random Forest
 - Extra Trees
-- SVC
+- SVC (80%)
 
-![jpg](images/inclass-competition.jpg)
+## Exploring using Deep Learning Techniques (LSTM)
+Open `SentimentAnalysis_RNN.ipynb` on a jupyter notebook environment. Alternatively, you can view the codes in Google Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/KwokHing/SentimentAnalysis-Python-Demo/blob/master/SentimentAnalysis_RNN.ipynb).
 
-## Getting started
-Open `SentimentAnalysis.ipynb` on a jupyter notebook environment. Alternatively, you can view the codes in Google Colab [here](https://drive.google.com/open?id=1d_po5AQDFRovk4livi2kvv1hhjPLxqAC). The notebook consists of further technical details.
+The LSTM deep learning method (79%) did not perform better than SVC/SVM method
 
-## Improvements
-Could potentially explore the use of Deep Learning Techniques such as RNN and/or LSTM for sentiment analysis
+## How about the BERT Transformers model
+Open `SentimentAnalysis_BERT.ipynb` on a jupyter notebook environment. Alternatively, you can view the codes in Google Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/KwokHing/SentimentAnalysis-Python-Demo/blob/master/SentimentAnalysis_BERT.ipynb).
+
+The State-of-the-Art transformer model performs slightly better at 82% accuracy
 
 <!---
 # Walk-through of the submission entry:
