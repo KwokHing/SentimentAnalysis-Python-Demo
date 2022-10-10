@@ -11,7 +11,7 @@ Recommended to install [Anaconda](https://www.anaconda.com/products/distribution
 Data for this in-class competition comes from the [Sentiment140](https://www.kaggle.com/datasets/kazanova/sentiment140) dataset where the training and test data consists of randomly sampled 10% and 5% of the dataset.
 
 ## Getting started using Lexicon and Machine Learning (ML) based methods
-Open `SentimentAnalysis.ipynb` on a jupyter notebook environment. Alternatively, you can view the codes in Google Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/KwokHing/SentimentAnalysis-Python-Demo/blob/master/SentimentAnalysis.ipynb). 
+Open `SentimentAnalysis.ipynb` on a jupyter notebook environment, or in Google Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/KwokHing/SentimentAnalysis-Python-Demo/blob/master/SentimentAnalysis.ipynb)
 
 - VADER (VALENCE based sentiment analyzer) (67%)
 - Naive Bayes
@@ -22,12 +22,12 @@ Open `SentimentAnalysis.ipynb` on a jupyter notebook environment. Alternatively,
 - SVC (80%)
 
 ## Exploring using Deep Learning Techniques (LSTM)
-Open `SentimentAnalysis_RNN.ipynb` on a jupyter notebook environment. Alternatively, you can view the codes in Google Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/KwokHing/SentimentAnalysis-Python-Demo/blob/master/SentimentAnalysis_RNN.ipynb).
+Open `SentimentAnalysis_RNN.ipynb` on a jupyter notebook environment, or in Google Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/KwokHing/SentimentAnalysis-Python-Demo/blob/master/SentimentAnalysis_RNN.ipynb)
 
 The LSTM deep learning method (79%) did not perform better than SVC/SVM method
 
 ## How about the BERT Transformers model
-Open `SentimentAnalysis_BERT.ipynb` on a jupyter notebook environment. Alternatively, you can view the codes in Google Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/KwokHing/SentimentAnalysis-Python-Demo/blob/master/SentimentAnalysis_BERT.ipynb).
+Open `SentimentAnalysis_BERT.ipynb` on a jupyter notebook environment, or in Google Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/KwokHing/SentimentAnalysis-Python-Demo/blob/master/SentimentAnalysis_BERT.ipynb)
 
 The State-of-the-Art transformer model performs slightly better at 82% accuracy
 
