@@ -13,24 +13,24 @@ Data for this in-class competition comes from the [Sentiment140](https://www.kag
 ## Getting started using Lexicon and Machine Learning (ML) based methods
 Open `SentimentAnalysis.ipynb` on a jupyter notebook environment, or [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/KwokHing/SentimentAnalysis-Python-Demo/blob/master/SentimentAnalysis.ipynb)
 
-- VADER (VALENCE based sentiment analyzer) (67%)
+- VADER (VALENCE based sentiment analyzer) [67%]
 - Naive Bayes
-- Linear SVM (Support Vector Machine) (80%)
+- Linear SVM (Support Vector Machine) [80%]
 - Decision Tree
 - Random Forest
 - Extra Trees
-- SVC (80%)
+- SVC [80%]
 
 ## Exploring using Deep Learning Techniques (LSTM)
 Open `SentimentAnalysis_RNN.ipynb` on a jupyter notebook environment, or [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/KwokHing/SentimentAnalysis-Python-Demo/blob/master/SentimentAnalysis_RNN.ipynb)
 
-The LSTM deep learning method (79%) did not perform better than SVC/SVM method 
+The LSTM deep learning method [79%] did not perform better than SVC/SVM method 
 <br/>
 
 ## How about the BERT Transformers model?
 Open `SentimentAnalysis_BERT.ipynb` on a jupyter notebook environment, or [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/KwokHing/SentimentAnalysis-Python-Demo/blob/master/SentimentAnalysis_BERT.ipynb)
 
-The State-of-the-Art transformer model performs slightly better at 82% accuracy
+The State-of-the-Art transformer model performs slightly better at [82%] accuracy
 
 <!---
 # Walk-through of the submission entry:
